@@ -1,6 +1,6 @@
 # Z-UWN-STF
 
-Collection of scripts to decommission GCP test resources, which are labelled by `audotelete:true`.
+Collection of scripts to decommission GCP test resources, which are labelled by `autodelete:true`.
 
 ## Features
 
