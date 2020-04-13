@@ -1,0 +1,1 @@
+gcloud functions logs read --region=europe-west1 --limit 100

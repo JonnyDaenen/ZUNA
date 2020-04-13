@@ -16,6 +16,7 @@ Collection of scripts to decommission GCP test resources, which are labelled by 
 - [ ] Pub/Sub topic deletion
 - [ ] GCS bucket list
 - [ ] GCS bucket deletion
+- [ ] Dedicated service account
 
 ## Basic
 
@@ -32,3 +33,9 @@ Collection of scripts to decommission GCP test resources, which are labelled by 
 - [ ] Publish to docker hub
 - [ ] Service account support
 - [ ] Flag to override input (Y/n)
+
+
+```bash
+export GCP_PROJECT_ID=<your projecy id>
+bash ./scripts/001_deploy.sh
+```

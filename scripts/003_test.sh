@@ -1,0 +1,1 @@
+gcloud pubsub topics publish app-zuna-cloudscheduler --message "go"
