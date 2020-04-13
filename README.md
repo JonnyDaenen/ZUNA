@@ -4,7 +4,7 @@ Collection of scripts to decommission GCP test resources, which are labelled by 
 
 ## Features
 
-## Core
+### Core
 
 - [x] List active dataflow jobs
 - [x] Drain dataflow jobs
@@ -16,25 +16,30 @@ Collection of scripts to decommission GCP test resources, which are labelled by 
 - [ ] Pub/Sub topic deletion
 - [ ] GCS bucket list
 - [ ] GCS bucket deletion
-- [ ] Dedicated service account
 
-## Basic
+### Basic
 
+- [x] Main script with ordered execution
+- [x] Local invocation possible
 - [ ] BigQuery table deletion
 - [ ] BigQuery non-EU datasets
 - [ ] Dataflow drain/cancel wait
-- [ ] Dataflow cancel option
-- [ ] Main script with ordered execution (DF, BQ, PS sub, PS top, GCS)
+- [ ] Dataflow cancel option (env var)
 
 ### Usage
 
-- [ ] Pass in project id
+- [x] Pass in project id (env var)
+- [x] Cloud function support
+- [x] Cloud scheduler support
+- [x] Installer: resource creation script
+- [x] Dedicated service account
+- [x] Standard roles on service account (project-level)
 - [ ] Dockerize
 - [ ] Publish to docker hub
-- [ ] Service account support
 - [ ] Flag to override input (Y/n)
 
 
+## Installation
 ```bash
 export GCP_PROJECT_ID=<your projecy id>
 bash ./scripts/001_deploy.sh

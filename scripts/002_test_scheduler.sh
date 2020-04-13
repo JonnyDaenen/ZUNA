@@ -1,0 +1,1 @@
+gcloud beta scheduler jobs run app-zuna-trigger

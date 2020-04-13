@@ -4,9 +4,6 @@ gcloud config set project $GCP_PROJECT_ID
 # Activation topic
 gcloud pubsub topics create app-zuna-cloudscheduler
 
-# gcloud pubsub subscriptions create app-zuna-cloudscheduler-subscription --topic app-zuna-cloudscheduler
-
-
 # Service account
 gcloud iam service-accounts create sa-app-zuna \
     --description "Service account for ZUNA app." \
@@ -43,6 +40,8 @@ gcloud functions deploy \
     --quiet
 
 # Trigger every Friday at 21:00 
+# For cron to human, see: https://cronexpressiondescriptor.azurewebsites.net
+# To build cron experssions, see:  http://www.cronmaker.com
 gcloud scheduler jobs \
     create pubsub \
     app-zuna-trigger \
