@@ -1,4 +1,4 @@
-# Z-UWN-STF
+# ZUNA
 
 Collection of scripts to decommission GCP test resources, which are labelled by `autodelete:true`.
 
