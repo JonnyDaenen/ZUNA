@@ -1,9 +1,10 @@
 # ZUNA
 
-ZUNA = Zap Unused and Non-permanent Assets
+Zap Unused and Non-permanent Assets
 (Dutch version: Zet Uwe Nest Af)
 
-Collection of scripts to decommission GCP test resources, which are labelled by `autodelete:true`.
+Collection of scripts to decommission Google Cloud test resources, which are labelled by `autodelete:true`.
+
 
 ## Features
 
