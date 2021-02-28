@@ -3,7 +3,7 @@
 Zap Unused and Non-permanent Assets
 (Dutch version: Zet Uwe Nest Af)
 
-Collection of cloud native resources to decommission Google Cloud test resources.
+Cloud native system to decommission Google Cloud test resources.
 Resources should be labeled with  `autodelete:true`.
 
 
