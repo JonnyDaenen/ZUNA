@@ -1,7 +1,7 @@
 # ZUNA
 
-Zap Unused and Non-permanent Assets
-(Dutch version: Zet Uwe Nest Af)
+**Zap Unused and Non-permanent Assets**
+(Dutch version: *Zet Uwe Nest Af*)
 
 Cloud native system to decommission Google Cloud test resources.
 Resources should be labeled with  `autodelete:true`.
